@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website wiwth login page</title>
+    <link rel="stylesheet" href="project1.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- fontawesoms -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Borel&family=Bree+Serif&family=Nunito+Sans:ital,wght@1,200&family=PT+Sans&family=Poppins:wght@300;400;500&family=Raleway:wght@300&family=Rubik:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="con main-nav">
+  <header class="header">
+    <nav class="nav">
+        <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+    <i class="fa-solid fa-bars"></i>
+        </a>
+        <a href="#" class="nav_logo">CodingLab</a>
+        <ul class="nav_items main-nav">
+            <li class="nav_item inoactive" id="nav-links">
+                <a href="#" class="nav_link">Home</a>
+                <a href="#" class="nav_link">products</a>
+                <a href="#" class="nav_link">Services</a>
+                <a href="#" class="nav_link">Contact us</a>
+            </li>
+        </ul>
+        
+        <button class="button" id="form-open">Login</button>
+        
+    </nav>
+    <div class="text-sectionoe" id="text">
+        <span>"CodingLab" Unleash Your Coding Potential! Elevate your skills and master the art of coding on our powerful platform. . .</span>
+    </div>
+  </header>
+  
+  <!-- Home -->
+  <section class="home">
+    <div class="form_container">
+        <i class="fa-solid fa-xmark form_close"></i>
+        <!-- login form -->
+        <div class="form login_form">
+            <form action="#">
+                <h2>Login</h2>
+                <div class="input_box">
+                    <input type="email" placeholder="Enter your email" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password" placeholder="Enter your password" required>
+                    <i class="fa-solid fa-lock password"></i>
+                    <i class="fa-sharp fa-solid fa-eye-slash"></i>
+                </div>
+
+                <div class="option_field">
+                    <span class="checkbox">
+                        <input type="checkbox" id="check">
+                        <label for="check">Remember me</label>
+                    </span>
+                    <a href="#" class="forgot_pw">Forgot password?</a>
+                </div>
+                <button class="button">login now</button>
+
+                <div class="login_signup">
+                    Don't have an account? <a href="#" id="signup">Signup</a>
+                </div>
+            </form>
+        </div>
+
+    
+        <!-- signedup form  -->
+        <div class="form signup_form">
+            <form action="#">
+                <h2>Signup</h2>
+                <div class="input_box">
+                    <input type="email" placeholder="Enter your email" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password" placeholder="Create password" required>
+                    <i class="fa-solid fa-lock password"></i>
+                    <i class="fa-sharp fa-solid fa-eye-slash"></i>
+                </div>
+
+                <div class="input_box">
+                    <input type="password" placeholder="Confirm password" required>
+                    <i class="fa-solid fa-lock password"></i>
+                    <i class="fa-sharp fa-solid fa-eye-slash"></i>
+                </div>
+
+                <button class="button">Signup now</button>
+
+                <div class="login_signup">
+                    Already have an account? <a href="#" id="login">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+  </section>
+</div>
+  <script src="project1.js"></script>
+  <script src="media.js"></script>
+</body>
+</html>
